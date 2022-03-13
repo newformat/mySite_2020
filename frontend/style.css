@@ -1,33 +1,24 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    background-color: cornflowerblue;
 }
 
-body {
-    font-family: sans-serif;
-    font-size: 10pt;
-    width: 100%;
+.main_block {
+    position: relative;
+    margin-left: 25%;
+    width: 50%;
     height: 100%;
-    min-height: 1vh;
 }
 
-.grid_body {
-  display: grid;
+.header {
+  background-color:rgb(63, 61, 59);
+  width: 100%;
+  height: auto;
 
-  grid-template-columns: repeat(3,1fr);
-  grid-template-rows: 1fr 1fr;
-}
-
-.grid_item {
   text-align: center;
-  font-size: 50px;
-  border: 2px dashed rgba(255, 255, 255, 255.2);
-  color:rgb(156, 192, 165);
-  padding: 30px;
-}
+  color: aliceblue;
+  font-size: 20pt;
+  font-family: Arial, Helvetica, sans-serif;
+  
 
-h1 {
-  color: blue;
 }
